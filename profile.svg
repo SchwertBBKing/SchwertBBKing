@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="800" viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        margin: 0;
+        padding: 2em;
+        background: white;
+        color: #111;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #111;
+          color: #eee;
+        }
+
+        .card {
+          background: #1c1c1c;
+          border: 1px solid #333;
+        }
+      }
+
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 0.5em;
+      }
+
+      .card {
+        border-radius: 12px;
+        padding: 1em;
+        margin: 1em 0;
+        background: #f3f3f3;
+        transition: background 0.3s;
+      }
+
+      a {
+        color: #5e5eff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    </style>
+
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <h1>👋 Hi, ich bin Tom</h1>
+      <p>Fullstack Entwickler · UX/UI Designer · Open-Source Maker</p>
+
+      <div class="card">
+        <h2>Über mich</h2>
+        <p>Ich liebe es, Design mit Technologie zu verbinden. Mein Fokus liegt auf cleanem Code, durchdachter User Experience und Developer Tools.</p>
+      </div>
+
+      <div class="card">
+        <h2>Projekte</h2>
+        <ul>
+          <li><a href="https://github.com/tomdev/mydashboard">📦 mydashboard</a> – Admin Dashboard Template mit Auth & API</li>
+          <li><a href="https://github.com/tomdev/devtools-hub">🧩 devtools-hub</a> – Terminal-Snippet-Manager mit Electron</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Kontakt</h2>
+        <p><a href="mailto:tom@email.com">📫 E-Mail</a> · <a href="https://linkedin.com/in/tomdev">🔗 LinkedIn</a></p>
+      </div>
+    </body>
+  </foreignObject>
+</svg>
