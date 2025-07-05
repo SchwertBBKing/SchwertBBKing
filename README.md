@@ -1,2 +1,2 @@
-![profile](https://bbking.great-site.net/profile.svg)
+![profile](https://bbking.great-site.net/profile.sv)
 lul
